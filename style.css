@@ -1,0 +1,106 @@
+/* Make old browsers recognize HTML5 elements */
+article, section, aside, hgroup, nav, header, footer, figure, figcaption {
+    display: block;
+}
+
+/* Normal links */
+
+section a {
+    text-decoration: none;
+/*    border-bottom: dotted 1px #666; */
+}
+
+section a:link {
+    color: blue;
+/*    border-bottom: dotted 1px #666; */
+}
+
+section a:hover {
+    color: blue;
+	border-bottom: dotted 1px #666;
+}
+
+body {
+    background-color: white;
+    font-family: 'Cabin', sans-serif;
+/*    font-family: sans-serif; */
+	text-align: center;
+	font-size: 100%;
+}
+
+section {
+	text-align: justify;
+	padding: 0 100px 0 100px;
+}
+
+p {
+	line-height: 150%;
+}
+
+nav {
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    text-align: center;
+    padding: 10px;
+	margin-bottom: 80px;
+}
+
+h1 {
+    border-style: solid;
+    border-top-width: 3px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Nav bar stuff */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 8px 0 8px;
+	padding: 2px;
+}
+
+#active_nav {
+	border-bottom: solid 1px black;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+	padding: 2px;
+}
+
+
+nav a:hover {
+    border-bottom: dotted 1px black;
+}
+
+footer {
+	margin-top: 200px;
+	padding-top: 5px;
+	border-top: solid 1px black;
+}
+
+
+/* ********* */
+
+#container {
+    max-width: 1000px;
+	min-width: 600px;
+    margin: 0 auto;
+/*    padding: 10px; */
+    background-color: white;
+}
