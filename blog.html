@@ -1,59 +1,26 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <link href="http://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" type="text/css">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <meta charset="UTF-8">
-    <title>R. Wesley Henderson</title>
-    <!-- Make old IE recognize HTML5 elements -->
-    <script>
-        document.createElement('article');
-        document.createElement('section');
-        document.createElement('aside');
-        document.createElement('hgroup');
-        document.createElement('nav');
-        document.createElement('header'); 
-        document.createElement('footer');
-        document.createElement('figure');
-        document.createElement('figcaption'); 
-    </script>
-</head>
-<body>    
-    <div id="container">
-        <h1>
-            R. Wesley Henderson
-        </h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Bio</a></li>
-                <li id="active_nav"><a href="blog.html">Blog</a></li>
-                <li><a href="research.html">Research</a></li>
-                <li><a href="publications.html">Publications</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <section id="subhead">
-            <h2>Blog</h2>
-        </section>
-        <section id="posts">
-	    	<article>
-	    	    <header>
-	    	        <h3>Test blog post title</h3>
-	    	        <p>Tuesday, 19 January 2016</p>
-	    	    </header>
-	    	    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis dignissim augue at facilisis. Aenean lobortis lacus et nulla lacinia porttitor. Nam ut porta erat. Phasellus convallis vel diam vitae semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur imperdiet blandit eros sed dignissim. Vivamus sit amet purus pellentesque, consectetur leo non, venenatis ligula. Donec ornare, velit in rutrum finibus, ipsum massa convallis velit, nec maximus lacus mauris sit amet libero. Cras dolor dui, dictum sit amet nunc vel, faucibus consectetur lorem. Nulla posuere aliquet turpis eu porttitor. Integer dapibus eget velit in finibus. Nulla tempor mi id lectus ultrices, nec hendrerit augue gravida. Duis lectus dui, condimentum varius sem vestibulum, elementum scelerisque libero. Donec at mi aliquam, suscipit lorem in, molestie mauris. Vivamus tempor eleifend diam vitae molestie. Curabitur aliquam eu nisl tristique tempus. </p>
+---
+title: Blog
+layout: page
+permalink: /blog/
+---
 
-                <p> Morbi elementum cursus magna, a tincidunt sem. Curabitur fringilla iaculis leo, sed posuere nisl vestibulum lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu felis varius, auctor quam eu, tincidunt nisi. Nam a sollicitudin nulla. Aliquam ultricies odio sed dolor sagittis posuere. Cras blandit lacus et elit sagittis maximus. Vestibulum rhoncus aliquet eleifend. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque dignissim a erat in maximus. </p>
+<section id="posts">
+<ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-                <p> Vestibulum sollicitudin purus quis nibh ornare, non scelerisque lacus sagittis. Donec ut quam at velit mollis euismod sit amet non velit. Vestibulum ac dignissim odio. Quisque ex orci, placerat id finibus vitae, tincidunt sit amet felis. Donec lobortis, dolor sit amet viverra maximus, mauris dolor mollis lorem, eu posuere erat elit nec mauris. Ut sagittis ligula non convallis elementum. Duis malesuada vel turpis at tempus. Nulla fermentum nisi id mauris molestie eleifend. Donec vitae diam tincidunt, dignissim ante vel, ultrices tellus. In egestas tellus at justo fermentum pellentesque. Aliquam non eleifend mi, eu fringilla nibh. Etiam tortor ante, congue ut quam ac, cursus fermentum neque. </p>
-                <footer>
-                    Posted by Wesley Henderson at 08:18 CST
-                </footer>
-	    	</article>
-        </section>
-        <footer>
-            Copyright © 2015-16 Robert Wesley Henderson, All Rights Reserved.
-        </footer>
-    </div>
-</body>
-</html>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        
+        <!-- <p>
+          {{ post.content | truncatehtml: 100 }}
+        </p>
+        <p>
+          <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+        </p> -->
+      </li>
+    {% endfor %}
+</ul>
+</section>
