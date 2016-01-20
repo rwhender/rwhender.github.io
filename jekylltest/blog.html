@@ -14,12 +14,12 @@ permalink: /blog/
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         
-        <p>
-          {{ post.content | truncatewords: 100 }}
+        <!-- <p>
+          {{ post.content | truncatehtml: 100 }}
         </p>
         <p>
           <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
-        </p>
+        </p> -->
       </li>
     {% endfor %}
 </ul>

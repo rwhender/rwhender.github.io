@@ -5,7 +5,11 @@
         <ul>
             {% for my_page in site.pages %}
                 {% if my_page.title %}
-                    <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                    {% if my_page.url == page.url %}
+                        <li id=active_nav><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                    {% else %}
+                        <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                    {% endif %}
                 {% endif %}
             {% endfor %}
         </ul>
