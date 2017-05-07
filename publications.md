@@ -4,7 +4,13 @@ title: Publications
 permalink: /publications/
 ---
 
+### Journal Articles ###
+
+R. Wesley Henderson, Paul M. Goggans, and Lei Cao. "Combined-chain nested sampling for efficient Bayesian model comparison." *Digital Signal Processing*, submitted.
+
 ### Conference Proceedings ###
+
+R. Wesley Henderson and Paul M. Goggans. "Bayesian Comparison of Voice Coil Impedance Models for Dynamic Loudspeakers." In *BAYESIAN INFERENCE AND MAXIMUM ENTROPY METHODS IN SCIENCE AND ENGINEERING: 36th International Workshop on Bayesian Inference and Maximum Entropy Methods in Science and Engineering,* submitted.
 
 R. Wesley Henderson and Paul M. Goggans. "Parallelized nested sampling." *AIP Conference Proceedings*, volume 1636, pages 100–105, 2014. [[pdf]({{ '/pdfs/Parallelized_Nested_Sampling_Henderson_Goggans.pdf' | prepend: site.baseurl }})]
 			

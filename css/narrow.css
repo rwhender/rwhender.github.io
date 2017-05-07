@@ -1,0 +1,35 @@
+#container {
+    max-width: 800px;
+	min-width: 0px;
+    margin: 0 auto;
+/*    padding: 10px; */
+    background-color: white;
+}
+
+section {
+	text-align: justify;
+	padding: 0 10px 0 10px;
+}
+
+body {
+	font-size: 100%;
+}
+
+p {
+	line-height: 125%;
+}
+
+nav li {
+	display: block;
+	min-width: 0;
+	margin: 0 auto;
+}
+
+nav {
+	width: auto;
+	margin: 0 auto;
+}
+
+nav ul {
+	width: auto;
+}
