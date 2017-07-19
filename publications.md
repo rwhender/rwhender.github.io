@@ -10,7 +10,7 @@ R. Wesley Henderson, Paul M. Goggans, and Lei Cao. "Combined-chain nested sampli
 
 ### Conference Proceedings ###
 
-R. Wesley Henderson and Paul M. Goggans. "Bayesian Comparison of Voice Coil Impedance Models for Dynamic Loudspeakers." In *BAYESIAN INFERENCE AND MAXIMUM ENTROPY METHODS IN SCIENCE AND ENGINEERING: 36th International Workshop on Bayesian Inference and Maximum Entropy Methods in Science and Engineering,* submitted.
+R. Wesley Henderson and Paul M. Goggans. "Bayesian Comparison of Voice Coil Impedance Models for Dynamic Loudspeakers." In *AIP Conference Proceedings*, volume 1853, pages 050002, 2017. [[pdf]({{ '/pdfs/henderson_goggans_maxent_2016.pdf' | prepend: site.baseurl }})]
 
 R. Wesley Henderson and Paul M. Goggans. "Parallelized nested sampling." *AIP Conference Proceedings*, volume 1636, pages 100–105, 2014. [[pdf]({{ '/pdfs/Parallelized_Nested_Sampling_Henderson_Goggans.pdf' | prepend: site.baseurl }})]
 			
