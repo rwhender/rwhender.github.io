@@ -6,7 +6,7 @@ permalink: /publications/
 
 ### Journal Articles ###
 
-R. Wesley Henderson, Paul M. Goggans, and Lei Cao. "Combined-chain nested sampling for efficient Bayesian model comparison." *Digital Signal Processing*, volume 70, pages 84–93, 2017. [[pdf]({{'/pdfs/henderson goggans cao parallel nested sampling elsevier dsp.pdf' | prepend: site.baseurl }})]
+R. Wesley Henderson, Paul M. Goggans, and Lei Cao. "Combined-chain nested sampling for efficient Bayesian model comparison." *Digital Signal Processing*, volume 70, pages 84–93, 2017.  [[web](http://www.sciencedirect.com/science/article/pii/S1051200417301719)] [[pdf]({{'/pdfs/henderson goggans cao parallel nested sampling elsevier dsp.pdf' | prepend: site.baseurl }})]
 
 ### Conference Proceedings ###
 
