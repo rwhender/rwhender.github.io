@@ -18,7 +18,7 @@ This version of the Phi is a PCI-Express expansion card that basically runs a se
 
 Hardware and operating system support for the Phi is limited. I did a fair amount of research, and ended up selecting a Dell workstation that we then bought specifically for the purpose of using the Phi. I originally used Windows 10, but support for Windows is spotty at best, so I’ve recently switched to CentOS 7. It’s not officially supported, but Red Hat Enterprise Linux (RHEL) is, and CentOS seems to work just as well so far.
 
-###The Offload model###
+### The Offload model
 
 The specific nested sampling approach I’ve been trying to implement recently is the combined-chain approach described in a paper I co-authored that was published last year ([published version here](https://doi.org/10.1016/j.dsp.2017.07.021), [preprint here]({{'/pdfs/henderson goggans cao parallel nested sampling elsevier dsp.pdf' | prepend: site.baseurl }})). The gist of this approach is that several serial nested sampling runs are conducted, and the results are combined and processed to get a final result. This approach yields increased precision in the log-evidence estimate when compared to each serial result on its own.
 
@@ -41,7 +41,7 @@ It might be possible to mitigate this issue somewhat (or maybe almost completely
 
 The other way around this problem would be to drop the offload programming model and try the shared memory approach. This approach creates a virtual shared memory space that both the host and the Phi can access, and allows use of more complex data structures, including some of those included in the C++ STL. Using this approach would require some pretty heavy retooling of my code, so I think I’ll only resort to this if the previous approach doesn’t work.
 
-###Intel VTune Amplifier###
+### Intel VTune Amplifier
 
 The issue that finally got me to migrate from Windows to CentOS was support for Intel’s VTune Amplifier software profiling package. This is apparently the only tool that can be used to profile code running on the Phi, and I needed it to find the slow-down mentioned in the previous section. After trying everything I could think to try (and to google), I just could not get Amplifier to communicate with the Phi on Windows. After moving everything over to CentOS, Amplifier works just fine, and I was able to more easily diagnose the performance issue in my code. Perhaps others have had more luck getting Amplifier to run on Windows with the Phi; if so, I’d love to hear about it!
 
