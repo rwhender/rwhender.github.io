@@ -24,9 +24,9 @@ description: This is my personal website.
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  # Resources:
-  #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-  #   - Learn markdown: "http://www.markdowntutorial.com/"
+  Resume and CV:
+    - Industry Resume: "{{'/pdfs/henderson industry resume general.pdf' | prepend: site.baseurl }}"
+    - Academic CV: "{{'/pdfs/Henderson CV.pdf' | prepend: site.baseurl }}"
   #   - GitHub Pages: "https://pages.github.com/"
   Research: "research"
   Publications: "publications"
