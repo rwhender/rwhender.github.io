@@ -8,6 +8,10 @@ permalink: /publications/
 
 R. Wesley Henderson, Paul M. Goggans, and Lei Cao. "Combined-chain nested sampling for efficient Bayesian model comparison." *Digital Signal Processing*, volume 70, pages 84–93, 2017.  [[web](http://www.sciencedirect.com/science/article/pii/S1051200417301719)] [[pdf]({{'/pdfs/henderson goggans cao parallel nested sampling elsevier dsp.pdf' | prepend: site.baseurl }})]
 
+### Tutorials ###
+
+R. Wesley Henderson. Tutorial: Parallel computing approaches for model comparison. In *38th International Workshop on Bayesian Inference and Maximum Entropy Methods in Science and Engineering*, 2018. [[pdf]({{ '/pdfs/Henderson - 2018 - Parallel Computing Approaches for Model Comparison.pdf' | prepend: site.baseurl }})]
+
 ### Conference Proceedings ###
 
 R. Wesley Henderson and Paul M. Goggans. "Model comparison using the Z-order curve." In *37th International Workshop on Bayesian Inference and Maximum Entropy Methods in Science and Engineering*, submitted.
