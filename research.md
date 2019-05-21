@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-###Past Research###
+### Past Research ###
 
 My research lies at the intersection of Bayesian inference, signal processing, and parallel computing. For my dissertation, I have developed and rigorously analyzed several new algorithms for performing Bayesian model comparison on parallel computer architectures. These algorithms have applications in acoustics and audio signal processing, image processing, and other signal processing domains. These techniques were developed with the goal of accelerating data analysis in these domains.
 
@@ -12,6 +12,6 @@ While at the University of Mississippi, most recently I worked on a small busine
 
 I have also worked on several projects related to Bayesian inference relating to acoustics applications, such as loudspeaker modeling and design and acoustic room mode analysis.
 
-###Current Research###
+### Current Research ###
 
 Currently, I am teaching myself more about artificial neural networks (ANN) and deep learning. I am particularly interested in the analysis of time series (such as audio signals) using these techniques. I am also interested in exploring the intersection of Bayesian inference with ANNs. The model comparison techniques developed in my dissertation could have an application in improving Bayesian-regularized artificial neural networks (BRANNs).
