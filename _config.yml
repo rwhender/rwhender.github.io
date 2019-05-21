@@ -25,8 +25,8 @@ description: This is my personal website.
 navbar-links:
   About Me: "aboutme"
   Resume and CV:
-    - Industry Resume: "{{'/pdfs/henderson industry resume general.pdf' | prepend: site.baseurl }}"
-    - Academic CV: "{{'/pdfs/Henderson CV.pdf' | prepend: site.baseurl }}"
+    - Industry Resume: "pdfs/henderson industry resume general.pdf"
+    - Academic CV: "pdfs/Henderson CV.pdf"
   #   - GitHub Pages: "https://pages.github.com/"
   Research: "research"
   Publications: "publications"
