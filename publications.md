@@ -6,6 +6,8 @@ permalink: /publications/
 
 ### Journal Articles ###
 
+R. Wesley Henderson and Paul M. Goggans. "TI-Stan: Model comparison using thermodynamicintegration and HMC." *Entropy*, volume 21 page 1161, November 2019. [[open-access web](https://www.mdpi.com/583056)]
+
 R. Wesley Henderson, Paul M. Goggans, and Lei Cao. "Combined-chain nested sampling for efficient Bayesian model comparison." *Digital Signal Processing*, volume 70, pages 84–93, 2017.  [[web](http://www.sciencedirect.com/science/article/pii/S1051200417301719)] [[pdf]({{'/pdfs/henderson goggans cao parallel nested sampling elsevier dsp.pdf' | prepend: site.baseurl }})]
 
 ### Tutorials ###
@@ -14,7 +16,9 @@ R. Wesley Henderson. Tutorial: Parallel computing approaches for model compariso
 
 ### Conference Proceedings ###
 
-R. Wesley Henderson and Paul M. Goggans. "Model comparison using the Z-order curve." In *37th International Workshop on Bayesian Inference and Maximum Entropy Methods in Science and Engineering*, submitted.
+R. Wesley Henderson and Paul M. Goggans. "TI-Stan: Adaptively annealed thermodynamic integration with HMC." *Proceedings*, Volume 33, page 9, November 2019. [[open-access web](https://www.mdpi.com/579432)]
+
+R. Wesley Henderson and Paul M. Goggans. "Using the Z-order curve for Bayesian model comparison." In *A. Polpo, J. Stern, F. Louzada, R. Izbicki, and H. Takada, editors, Bayesian Inference and Maximum Entropy Methods in Science and Engineering (MaxEnt 2017)*, Volume 239, pages 295–304. Springer Proceedings in Mathematics & Statistics, 2018. [[web](https://www.springerprofessional.de/en/using-the-z-order-curve-for-bayesian-model-comparison/15949272)]
 
 R. Wesley Henderson and Paul M. Goggans. "Bayesian Comparison of Voice Coil Impedance Models for Dynamic Loudspeakers." In *AIP Conference Proceedings*, volume 1853, pages 050002, 2017. [[pdf]({{ '/pdfs/henderson_goggans_maxent_2016.pdf' | prepend: site.baseurl }})]
 
