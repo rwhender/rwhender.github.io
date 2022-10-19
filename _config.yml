@@ -24,13 +24,9 @@ description: This is my personal website.
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resume and CV:
-    - Industry Resume: "pdfs/henderson industry resume general.pdf"
-    - Academic CV: "pdfs/Henderson CV.pdf"
   #   - GitHub Pages: "https://pages.github.com/"
   Research: "research"
   Publications: "publications"
-  Wesley's FixIt: "fixit"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
