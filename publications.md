@@ -16,6 +16,8 @@ R. Wesley Henderson. Tutorial: Parallel computing approaches for model compariso
 
 ### Conference Proceedings ###
 
+Tom Reichel, R. Wesley Henderson, Andrew Touchet, Andrew Gardner, and Talia Ringer. "Proof Repair Infrastructure for Supervised Models: Building a Large Proof Repair Dataset." *14th International Conference on Interactive Theorem Proving (ITP 2023)*, Volume 268, pages 26:1-26:20, 2023. [[open-access web](https://drops.dagstuhl.de/opus/volltexte/2023/18401/)] [[pdf]({{ '/pdfs/Reichel 2023 Proof Repair Infrastructure for Supervised Models PRISM.pdf' | prepend: site.baseurl }})]
+
 R. Wesley Henderson and Paul M. Goggans. "TI-Stan: Adaptively annealed thermodynamic integration with HMC." *Proceedings*, Volume 33, page 9, November 2019. [[open-access web](https://www.mdpi.com/579432)]
 
 R. Wesley Henderson and Paul M. Goggans. "Using the Z-order curve for Bayesian model comparison." In *A. Polpo, J. Stern, F. Louzada, R. Izbicki, and H. Takada, editors, Bayesian Inference and Maximum Entropy Methods in Science and Engineering (MaxEnt 2017)*, Volume 239, pages 295–304. Springer Proceedings in Mathematics & Statistics, 2018. [[web](https://www.springerprofessional.de/en/using-the-z-order-curve-for-bayesian-model-comparison/15949272)]
